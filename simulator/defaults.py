@@ -5,7 +5,7 @@ from simulator.models import Platform
 DEFAULT_PLATFORMS = [
     Platform(name="YouTube",    universe_size=18_000_000, budget=20_000, cpm=12.0, frequency_cap=5),
     Platform(name="Netflix",    universe_size=17_000_000, budget=15_000, cpm=35.0, frequency_cap=4),
-    Platform(name="Amazon",     universe_size=16_000_000, budget=15_000, cpm=22.0, frequency_cap=4),
+    Platform(name="Amazon",     universe_size=13_000_000, budget=15_000, cpm=22.0, frequency_cap=4),
     Platform(name="Disney+",    universe_size=8_000_000,  budget=10_000, cpm=28.0, frequency_cap=3),
     Platform(name="ITV X",      universe_size=12_000_000, budget=10_000, cpm=18.0, frequency_cap=4),
 ]
