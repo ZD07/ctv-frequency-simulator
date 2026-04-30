@@ -9,6 +9,7 @@ class Platform:
     budget: float
     cpm: float
     frequency_cap: int
+    euid_adoption_rate: float = 0.0  # 0.0 = no EUID, 1.0 = fully EUID-enabled
 
     @property
     def impressions(self) -> float:
